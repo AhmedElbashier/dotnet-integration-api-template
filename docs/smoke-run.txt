@@ -1,0 +1,8 @@
+## smoke run Tue Nov 24 19:27:29 +04 2026
+Healthy
+{"id":"c_d2c77e5fc16d","email":"jane@example.com","fullName":"Jane Doe","phone":null,"createdAt":"2026-11-24T15:27:20.411392+00:00"}
+replay 200
+{"status":"duplicate","eventId":"evt_1"} [200]
+{"status":"duplicate","eventId":"evt_1"} [200]
+{"type":"https://tools.ietf.org/html/rfc9110#section-15.5.2","title":"Invalid webhook signature","status":401,"detail":"Invalid"} [401]
+swagger 200
